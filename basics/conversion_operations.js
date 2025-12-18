@@ -1,11 +1,11 @@
 let score = "false"
 
-// console.log(typeof score)
-// console.log(typeof (score))
+console.log(typeof score)
+console.log(typeof (score))
 
-// let value_in_number = Number(score)
-// console.log(typeof value_in_number)
-// console.log(value_in_number)
+let value_in_number = Number(score)
+console.log(typeof value_in_number)
+console.log(value_in_number)
 
 // "33" => 33
 // "33abc" => NaN (Not a number)
@@ -15,8 +15,8 @@ let score = "false"
 // true => 1 ; false = 0
 
 let value_in_boolean = Boolean(score)
-// console.log(typeof value_in_boolean)
-// console.log(value_in_boolean)
+console.log(typeof value_in_boolean)
+console.log(value_in_boolean)
 
 // if any string is passed to Boolean() -->
 // then if the string has some characters then it will produce --> true
@@ -28,33 +28,33 @@ let value_in_boolean = Boolean(score)
 
 // Basic operations -->
 
-// console.log(2+3)
-// console.log(2-3)
-// console.log(2*3)
-// console.log(2**3)
-// console.log(2/3)
-// console.log(2%3)
+console.log(2+3)
+console.log(2-3)
+console.log(2*3)
+console.log(2**3)
+console.log(2/3)
+console.log(2%3)
 
 let x = 2
 let negative = -x
-// console.log(negative)
+console.log(negative)
 
 let str1 = "Hello "
 let str2 = "Everyone!"
 let str3 = str1 + str2
-// console.log(str3)
+console.log(str3)
 
-// console.log("1" + 2) // 12
-// console.log("1" + "2") // 12
-// console.log(1 + "2") // 12
-// console.log(1 + "2" + 2) // 122
-// console.log(1 + 2 + "2" + 2) // 322
-// console.log("1" + 2 + 2) // 122
-// console.log(1 + 2 + "2") // 32
+console.log("1" + 2) // 12
+console.log("1" + "2") // 12
+console.log(1 + "2") // 12
+console.log(1 + "2" + 2) // 122
+console.log(1 + 2 + "2" + 2) // 322
+console.log("1" + 2 + 2) // 122
+console.log(1 + 2 + "2") // 32
 
-// console.log(true) // true
-// console.log(+true) // converts true to number --> true => 1
-// console.log(+"") // false => 0
+console.log(true) // true
+console.log(+true) // converts true to number --> true => 1
+console.log(+"") // false => 0
 
 // Increment Operator
 
@@ -65,3 +65,25 @@ console.log(++a) // 103
 console.log(a++) // 103
 console.log(pre_inc) // 101
 console.log(post_inc) // 101
+
+// Comparisons -->
+
+console.log(2 == 3)
+console.log(2 > 3)
+console.log(2 < 3)
+console.log(2 >= 3)
+console.log(2 <= 3)
+console.log(2 != 3)
+
+// Comparison between different datatypes : (Not Recommnded as sometimes gives wrong o/p)
+
+console.log("2" == 2)
+console.log("02" == 2)
+
+console.log(null == 0)
+console.log(null < 0)
+console.log(null >= 0)
+
+console.log(undefined == 0)
+console.log(undefined < 0)
+console.log(undefined >= 0)
